@@ -1,7 +1,7 @@
 window.apps.push({
     id: 'snake',
     name: 'Snake',
-    thumbnail: './games/snake/assets/icon.svg',
+    thumbnail: './games/to-polish/snake/assets/icon.svg',
     color: '#27ae60',
     icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h3l2-4 3 8 3-10 2 6h5"/></svg>',
     html: `

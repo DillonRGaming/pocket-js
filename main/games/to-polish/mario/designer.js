@@ -2,7 +2,7 @@ window.apps.push({
     id: 'mario-designer',
     name: 'Mario Designer',
     description: 'Create your own Super Mario levels.',
-    thumbnail: 'games/mario/assets/designer-thumb.png',
+    thumbnail: 'games/to-polish/mario/assets/designer-thumb.png',
     color: '#333',
     hidden: true,
     inputs: { left: 'dpad', right: 'buttons' },

@@ -1,7 +1,7 @@
 window.apps.push({
     id: 'tetris',
     name: 'Tetris',
-    thumbnail: './games/tetris/assets/icon.svg',
+    thumbnail: './games/to-polish/tetris/assets/icon.svg',
     color: '#9b59b6',
     icon: '<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>',
     html: `

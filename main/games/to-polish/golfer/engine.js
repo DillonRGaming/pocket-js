@@ -51,7 +51,7 @@ window.GolferEngine = class {
         if (!name) return null;
         let url = name;
         if (!url.startsWith('http') && !url.startsWith('games/')) {
-            url = `games/beta/golfer/${name}`;
+            url = `games/to-polish/golfer/${name}`;
         }
         if (this.spriteCache[url]) return this.spriteCache[url];
         const img = new Image(); 

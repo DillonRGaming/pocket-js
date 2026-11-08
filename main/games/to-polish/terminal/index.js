@@ -1,7 +1,7 @@
 window.apps.push({
     id: 'terminal',
     name: 'Terminal',
-    thumbnail: './games/terminal/assets/icon.svg',
+    thumbnail: './games/to-polish/terminal/assets/icon.svg',
     color: '#2ecc71',
     icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><polyline points="4 7 9 12 4 17"/><line x1="12" y1="18" x2="20" y2="18"/></svg>',
     html: `

@@ -1,7 +1,7 @@
 window.apps.push({
     id: 'chat',
     name: 'Pocket Chat',
-    thumbnail: './games/chat/assets/chat.png',
+    thumbnail: './games/to-polish/chat/assets/chat.png',
     html: `
         <div class="gb-app">
             <div class="gb-title">Pocket Chat</div>

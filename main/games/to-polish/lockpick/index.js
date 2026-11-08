@@ -2,7 +2,7 @@ window.apps.push({
     id: 'lockpick',
     name: 'Locksmith',
     description: 'A cozy lockpicking game. Select your tool with the shoulder buttons, use the joystick to navigate, and press X to try and set each pin. Feel the lock!',
-    thumbnail: './games/lockpick/assets/thumb.png',
+    thumbnail: './games/to-polish/lockpick/assets/thumb.png',
     color: '#2d3748',
     icon: `<svg viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M32 4C24.268 4 18 10.268 18 18v6H12a4 4 0 00-4 4v28a4 4 0 004 4h40a4 4 0 004-4V28a4 4 0 00-4-4H46v-6c0-7.732-6.268-14-14-14zm0 6a8 8 0 018 8v6H24v-6a8 8 0 018-8zm0 22a6 6 0 110 12 6 6 0 010-12z"/>

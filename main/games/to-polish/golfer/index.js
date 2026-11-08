@@ -32,7 +32,7 @@ window.apps.push({
         canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight;
         let currentLevelIdx = 0, levels =[];
         const engine = new window.GolferEngine(canvas, { mode: 'play', level: testLevelData, onLevelComplete: () => { if (testLevelData) engine.resetBall(); else { currentLevelIdx++; loadLevel(); } } });
-        async function fetchLevels() { if (testLevelData) return; let idx = 1; while (true) { try { const res = await fetch(`games/beta/golfer/levels/level${idx}.json`); if (!res.ok) break; levels.push(await res.json()); idx++; } catch (e) { break; } } loadLevel(); }
+        async function fetchLevels() { if (testLevelData) return; let idx = 1; while (true) { try { const res = await fetch(`games/to-polish/golfer/levels/level${idx}.json`); if (!res.ok) break; levels.push(await res.json()); idx++; } catch (e) { break; } } loadLevel(); }
         function loadLevel() { 
             if (levels.length > 0) { 
                 engine.level = levels[currentLevelIdx % levels.length]; 

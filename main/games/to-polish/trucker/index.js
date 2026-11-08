@@ -3,7 +3,7 @@
         id: 'trucker',
         name: 'Trucker',
         description: 'Navigate the roads with your truck and trailer. Use A/D to steer, W/S to control speed. T to Attach/Detach, L for Lights, M for Mirrors.',
-        thumbnail: './games/beta/trucker/assets/truck-1.svg',
+        thumbnail: './games/to-polish/trucker/assets/truck-1.svg',
         hidden: false,
         color: '#0a1a2f',
         icon: `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -28,8 +28,8 @@
             {
                 id: 'truck-1',
                 name: 'Class 8 Hauler',
-                sprite: './games/trucker/assets/truck-1.svg',
-                mirrorSprite: './games/trucker/assets/mirror.svg',
+                sprite: './games/to-polish/trucker/assets/truck-1.svg',
+                mirrorSprite: './games/to-polish/trucker/assets/mirror.svg',
                 color: '#e45d22',
                 scale: 0.25,
                 layer: 1,
@@ -56,7 +56,7 @@
             {
                 id: 'trailer-1',
                 name: '53ft Dry Van',
-                sprite: './games/trucker/assets/trailer-1.svg',
+                sprite: './games/to-polish/trucker/assets/trailer-1.svg',
                 color: '#ffffff',
                 scale: 0.25,
                 layer: 1,
@@ -370,7 +370,7 @@
             };
 
             const preloadAssets = async () => {
-                const assets =[...TRUCKS.map(t => t.sprite), ...TRUCKS.map(t => t.mirrorSprite), ...TRAILERS.map(t => t.sprite), './games/trucker/assets/wheel.svg'];
+                const assets =[...TRUCKS.map(t => t.sprite), ...TRUCKS.map(t => t.mirrorSprite), ...TRAILERS.map(t => t.sprite), './games/to-polish/trucker/assets/wheel.svg'];
                 await Promise.all(assets.filter(Boolean).map(loadImage));
             };
 
@@ -833,7 +833,7 @@
                 const ren =[];
                 const addAxles = (e, d) => d.axles.forEach(a => {
                     [-d.wheelSpacing / 2, d.wheelSpacing / 2].forEach(sideY => {
-                        ren.push({ layer: a.layer, type: 'wheel', x: e.x + Math.cos(e.angle) * a.x - Math.sin(e.angle) * sideY, y: e.y + Math.sin(e.angle) * a.x + Math.cos(e.angle) * sideY, angle: e.angle + (a.steer ? truck.steerAngle : 0), scale: d.wheelScale, sprite: './games/trucker/assets/wheel.svg' });
+                        ren.push({ layer: a.layer, type: 'wheel', x: e.x + Math.cos(e.angle) * a.x - Math.sin(e.angle) * sideY, y: e.y + Math.sin(e.angle) * a.x + Math.cos(e.angle) * sideY, angle: e.angle + (a.steer ? truck.steerAngle : 0), scale: d.wheelScale, sprite: './games/to-polish/trucker/assets/wheel.svg' });
                     });
                 });
 

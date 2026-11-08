@@ -2,7 +2,7 @@ window.apps.push({
     id: 'mario',
     name: 'Super Mario Bros',
     description: 'A recreation of the classic Super Mario Bros with a level builder.',
-    thumbnail: 'games/mario/assets/mario-thumb.png',
+    thumbnail: 'games/to-polish/mario/assets/mario-thumb.png',
     color: '#e45d22',
     hidden: true,
     inputs: { left: 'dpad', right: 'buttons' },

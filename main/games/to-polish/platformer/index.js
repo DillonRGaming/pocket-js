@@ -3,7 +3,7 @@
         id: 'platformer',
         name: 'Sky Jumper',
         description: 'A simple platforming test. Use the joystick to move left/right and the A button to jump. Collect the gold stars!',
-        thumbnail: './games/platformer/assets/platformer.png',
+        thumbnail: './games/to-polish/platformer/assets/platformer.png',
         color: '#3498db',
         icon: `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M5,15H9V19H5V15M11,11H15V15H11V11M17,7H21V11H17V7M3,19V21H21V19H3Z"/>
