@@ -1,0 +1,20 @@
+{
+  "name": "pocket-js",
+  "version": "1.0.0",
+  "description": "Pocket.js - A handheld console experience",
+  "main": "electron.cjs",
+  "scripts": {
+    "start": "node server.js",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "cors": "^2.8.6",
+    "express": "^4.22.2"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0"
+  }
+}
